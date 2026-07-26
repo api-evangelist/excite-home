@@ -1,8 +1,23 @@
 aid: excite-home
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excite-home.png
 name: Excite@Home
-description: 'Excite@Home is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Excite@Home (At Home Corporation) was a broadband cable-internet provider and web-portal
+  company formed when the @Home Network merged with the Excite web portal in 1999. Backed by Kleiner
+  Perkins, it delivered high-speed residential internet over cable partners and operated the Excite
+  consumer portal, before filing for bankruptcy and ceasing operations in 2001. It is a defunct
+  pre-API-era consumer company surfaced from a venture portfolio; it publishes no developer platform,
+  OpenAPI, or live API surface, so this profile remains an identity-only stub with no API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/excite-home/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +27,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Broadband
+- Internet Service Provider
+- Web Portal
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
